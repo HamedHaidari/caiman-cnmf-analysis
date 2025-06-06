@@ -1,0 +1,23 @@
+# Core dependencies for CaImAn CNMF Analysis
+streamlit>=1.28.0
+bokeh>=3.0.0
+holoviews>=1.17.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.6.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+# File format dependencies
+roifile>=2023.5.12
+readlif>=0.6.4
+
+# Development and debugging
+deepdiff>=6.0.0
+ipython>=8.0.0
+
+# CaImAn should be installed via conda:
+# conda install -c conda-forge caiman
+
+# Note: This project includes a SciPy compatibility fix for CaImAn deconvolution
+# that resolves issues with SciPy 1.15+ and scipy.linalg.toeplitz
