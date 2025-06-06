@@ -1,0 +1,86 @@
+# Data files - DO NOT COMMIT LARGE DATA
+data/
+*.lif
+*.tif
+*.tiff
+*.avi
+*.mp4
+*.mov
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+
+# CaImAn generated files
+caiman_data/
+*.mmap
+results/
+temp/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+caiman/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+
+# Bokeh output files
+bokeh_graph.html
+
+# Large output files
+*.pkl
+*.pickle
+
+# Streamlit files
+.streamlit/
