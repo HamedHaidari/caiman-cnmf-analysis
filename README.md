@@ -166,20 +166,10 @@ Caiman_Analysis/
 - Verify with different frame rates (4Hz, 28Hz)
 - Check memory usage with large datasets (>5GB)
 
-## Citation
-
-If you use this tool in your research, please cite:
-
-1. **CaImAn**: Giovannucci, A. et al. CaImAn an open source tool for scalable calcium imaging data analysis. eLife 8, e38173 (2019).
-2. **This Project**: [Add your citation information]
-
-## License
-
-[Add your license information]
 
 ## Contact
 
-[Add your contact information]
+hamedh343@gmail.com
 
 ---
 
